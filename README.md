@@ -66,4 +66,18 @@ Adicional a los resultados de los indicadores se realiza un análisis por géner
 
 - Impacto: Los resultados sugieren que el monitoreo automatizado de scores de severidad (APACHE/SOFA) puede reducir la carga cognitiva del personal médico.
 
-- Género: A pesar de existir diferencias en los indicadores, las predicciones de mortalidad son casi las mismas para ambos géneros, lo cual nos indica que los pacientes en UCIs independientemente del género su mortalidad se relaciona con los mismos síntomas. 
+- Género: A pesar de existir diferencias en los indicadores, las predicciones de mortalidad son casi las mismas para ambos géneros, lo cual nos indica que los pacientes en UCIs independientemente del género su mortalidad se relaciona con los mismos síntomas.
+
+- El análisis demuestra que la mortalidad en pacientes críticos no depende de una sola variable clínica, sino de la interacción simultánea de múltiples indicadores fisiológicos. Variables como el Puntaje APACHE II, SOFA, comorbilidades y gasto urinario funcionan como predictores clave cuando se analizan de manera conjunta mediante algoritmos de Machine Learning. Esto confirma que los modelos predictivos basados en múltiples variables superan los métodos clínicos tradicionales basados en reglas simples.
+
+- Se evidencia que los modelos de Machine Learning pueden actuar como sistemas de apoyo a la decisión médica, ayudando a los especialistas a anticipar eventos críticos antes de que se manifiesten clínicamente.
+
+- Este tipo de modelo podría integrarse fácilmente con:
+
+    * Sistemas de Historia Clínica Electrónica (EHR)
+
+    * Plataformas de monitoreo de signos vitales en tiempo real
+
+    * Sistemas de alertas clínicas automatizadas
+
+Esto permitiría generar alertas tempranas automáticas cuando un paciente presente patrones asociados con alto riesgo de mortalidad.
